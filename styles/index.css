@@ -1,0 +1,372 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif; }
+
+​h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+body {
+  background-color: #f3e1e1; }
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  grid-template-rows: 1fr; }
+
+div:nth-child(odd) {
+  align-self: end;
+  background-color: red;
+  transform-origin: 0 100%;
+  border-radius: 2px 44px 0 0; }
+
+div:nth-child(even) {
+  align-self: start;
+  background-color: blue;
+  transform-origin: 0 0;
+  border-radius: 0 0 29px 59px; }
+
+@keyframes randomMovement {
+  0% {
+    transform: scaleY(0); }
+  100% {
+    transform: scaleY(1); } }
+
+div:nth-child(1) {
+  height: 80vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(107, 119, 81, 0.76992); }
+
+div:nth-child(2) {
+  height: 89vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(64, 197, 168, 0.417486); }
+
+div:nth-child(3) {
+  height: 47vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(199, 89, 22, 0.636516); }
+
+div:nth-child(4) {
+  height: 31vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(224, 70, 21, 0.450703); }
+
+div:nth-child(5) {
+  height: 17vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(118, 119, 107, 0.929963); }
+
+div:nth-child(6) {
+  height: 99vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(1, 199, 72, 0.200679); }
+
+div:nth-child(7) {
+  height: 56vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(127, 206, 146, 0.163605); }
+
+div:nth-child(8) {
+  height: 41vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(211, 181, 72, 0.640158); }
+
+div:nth-child(9) {
+  height: 77vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(112, 32, 74, 0.244381); }
+
+div:nth-child(10) {
+  height: 69vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(19, 103, 113, 0.114097); }
+
+div:nth-child(11) {
+  height: 74vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(186, 210, 210, 0.323578); }
+
+div:nth-child(12) {
+  height: 12vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(249, 190, 134, 0.835368); }
+
+div:nth-child(13) {
+  height: 88vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(127, 177, 38, 0.53038); }
+
+div:nth-child(14) {
+  height: 53vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(104, 75, 151, 0.779582); }
+
+div:nth-child(15) {
+  height: 29vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(171, 165, 250, 0.596389); }
+
+div:nth-child(16) {
+  height: 52vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(76, 128, 199, 0.499391); }
+
+div:nth-child(17) {
+  height: 88vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(51, 42, 81, 0.304173); }
+
+div:nth-child(18) {
+  height: 65vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(235, 117, 83, 0.543289); }
+
+div:nth-child(19) {
+  height: 21vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(40, 139, 72, 0.0906564); }
+
+div:nth-child(20) {
+  height: 46vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(3, 151, 230, 0.366195); }
+
+div:nth-child(21) {
+  height: 32vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(223, 191, 82, 0.278582); }
+
+div:nth-child(22) {
+  height: 69vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(52, 38, 196, 0.683941); }
+
+div:nth-child(23) {
+  height: 29vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(210, 101, 93, 0.774749); }
+
+div:nth-child(24) {
+  height: 50vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(122, 157, 198, 0.499932); }
+
+div:nth-child(25) {
+  height: 23vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(149, 116, 229, 0.482982); }
+
+div:nth-child(26) {
+  height: 68vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(40, 9, 108, 0.106057); }
+
+div:nth-child(27) {
+  height: 59vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(11, 177, 16, 0.858589); }
+
+div:nth-child(28) {
+  height: 54vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(240, 15, 147, 0.137107); }
+
+div:nth-child(29) {
+  height: 43vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(150, 72, 47, 0.517083); }
+
+div:nth-child(30) {
+  height: 78vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(52, 184, 150, 0.692358); }
+
+div:nth-child(31) {
+  height: 51vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(196, 67, 78, 0.19896); }
+
+div:nth-child(32) {
+  height: 68vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(85, 235, 164, 0.96312); }
+
+div:nth-child(33) {
+  height: 65vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(248, 121, 71, 0.724974); }
+
+div:nth-child(34) {
+  height: 97vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(81, 162, 53, 0.0750724); }
+
+div:nth-child(35) {
+  height: 41vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(94, 90, 51, 0.443792); }
+
+div:nth-child(36) {
+  height: 80vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(211, 254, 233, 0.344761); }
+
+div:nth-child(37) {
+  height: 61vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(253, 57, 15, 0.682953); }
+
+div:nth-child(38) {
+  height: 29vh;
+  animation-name: randomMovement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(110, 118, 141, 0.867138); }
+
+div:nth-child(39) {
+  height: 33vh;
+  animation-name: randomMovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(33, 154, 64, 0.17998); }
+
+div:nth-child(40) {
+  height: 16vh;
+  animation-name: randomMovement;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: rgba(142, 215, 120, 0.286662); }
