@@ -1,5 +1,5 @@
 body {
-  background-color: #b8b8b8;
+  background-color: #f3e1e1;
 }
 
 main {
@@ -12,7 +12,6 @@ main {
 
 div:nth-child(odd) {
   align-self: end;
-  //   height: 50px;
   background-color: red;
   transform-origin: 0 100%;
   border-radius: random(80) + px random(80) + px 0 0;
@@ -20,7 +19,6 @@ div:nth-child(odd) {
 
 div:nth-child(even) {
   align-self: start;
-  //   height: 50px;
   background-color: blue;
   transform-origin: 0 0;
   border-radius: 0 0 random(80) + px random(80) + px;
@@ -38,7 +36,7 @@ div:nth-child(even) {
 
 @for $i from 1 through 40 {
   div:nth-child(#{$i}) {
-    height: random(100) + 10 + vh;
+    height: random(90) + 10 + vh;
     animation-name: randomMovement;
     animation-duration: random(3) + s;
     animation-iteration-count: infinite;
